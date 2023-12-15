@@ -10,7 +10,6 @@ stage: experimental
 arch:
   - aarch64
   - amd64
-  - armv7
 ports:
   80/tcp: 8002
 ports_description:
