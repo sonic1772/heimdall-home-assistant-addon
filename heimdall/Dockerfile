@@ -1,4 +1,4 @@
-ARG BUILD_FROM=linuxserver/heimdall:2.6.1
+ARG BUILD_FROM=linuxserver/heimdall:2021.11.28
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -12,7 +12,7 @@ ARG BUILD_REPOSITORY
 ARG BUILD_VERSION
 
 RUN apk add --no-cache \
-        jq=1.6-r4 \
+         jq=1.6-r1 \
     && curl -J -L -o /tmp/bashio.tar.gz \
         "https://github.com/hassio-addons/bashio/archive/refs/tags/v0.16.2.tar.gz" \
     && mkdir /tmp/bashio \
