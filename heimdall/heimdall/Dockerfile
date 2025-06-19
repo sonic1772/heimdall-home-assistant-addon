@@ -11,8 +11,7 @@ ARG BUILD_REF
 ARG BUILD_REPOSITORY
 ARG BUILD_VERSION
 
-RUN apk add --no-cache \
-         jq=1.6-r1 \
+RUN apk add --no-cache jq \
     && curl -J -L -o /tmp/bashio.tar.gz \
         "https://github.com/hassio-addons/bashio/archive/refs/tags/v0.16.2.tar.gz" \
     && mkdir /tmp/bashio \
