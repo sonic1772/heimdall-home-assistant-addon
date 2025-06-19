@@ -1,6 +1,6 @@
 ---
 name: Heimdall
-version: dev
+version: dev 0.2
 slug: heimdall
 url: https://heimdall.site/
 init: false
