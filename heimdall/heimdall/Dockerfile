@@ -1,4 +1,4 @@
-ARG BUILD_FROM=linuxserver/heimdall:2021.11.28
+ARG BUILD_FROM=linuxserver/heimdall:latest
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
